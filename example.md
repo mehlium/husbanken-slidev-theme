@@ -16,6 +16,8 @@ Presentation slides for developers
 </div>
 
 ---
+class: no-bg
+---
 
 # What is Slidev?
 
@@ -34,6 +36,8 @@ Slidev is a slide maker and presentation tool designed for developers. It includ
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
+---
+class: no-bg
 ---
 
 # Navigation
@@ -59,6 +63,8 @@ class: no-bg
 Foobar 
 
 ---
+class: no-bg
+---
 
 # Code
 
@@ -80,10 +86,9 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-
 layout: center
 class: "text-center"
-
+class: no-bg
 ---
 
 # Learn More
