@@ -18,8 +18,6 @@ theme: ./
 class: no-bg
 ---
 
-<img src="/images/husbanken-logo-hoved.svg" alt="Husbanken" class="absolute bottom-4 left-4 h-6" />
-
 # What is Slidev?
 
 Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
@@ -41,8 +39,6 @@ Read more about [Why Slidev?](https://sli.dev/guide/why)
 class: no-bg
 ---
 
-<img src="/images/husbanken-logo-hoved.svg" alt="Husbanken" class="absolute bottom-4 left-4 h-6" />
-
 # Navigation
 
 Hover on the bottom-left corner to see the navigation's controls panel
@@ -63,15 +59,11 @@ image: https://cover.sli.dev
 class: no-bg
 ---
 
-<img src="/images/husbanken-logo-hoved.svg" alt="Husbanken" class="absolute bottom-4 left-4 h-6" />
-
 Foobar 
 
 ---
 class: no-bg
 ---
-
-<img src="/images/husbanken-logo-hoved.svg" alt="Husbanken" class="absolute bottom-4 left-4 h-6" />
 
 # Code
 
@@ -97,8 +89,6 @@ layout: center
 class: "text-center"
 class: no-bg
 ---
-
-<img src="/images/husbanken-logo-hoved.svg" alt="Husbanken" class="absolute bottom-4 left-4 h-6" />
 
 # Learn More
 
