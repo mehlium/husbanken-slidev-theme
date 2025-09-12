@@ -2,22 +2,23 @@
 theme: ./
 ---
 
-# Slidev Theme Starter
 
-Presentation slides for developers
+# Husbanken slidev starter
 
 <div class="flex justify-start items-center gap-8 pt-8">
   <div class="text-center">
-    <div>[Date]</div>
+    <div>15-09-25</div>
   </div>
   <div class="text-center">
-    <div>Your Name</div>
+    <div>Kjetil Mehl</div>
   </div>
 </div>
 
 ---
 class: no-bg
 ---
+
+<img src="/images/husbanken-logo-hoved.svg" alt="Husbanken" class="absolute bottom-4 left-4 h-6" />
 
 # What is Slidev?
 
@@ -40,6 +41,8 @@ Read more about [Why Slidev?](https://sli.dev/guide/why)
 class: no-bg
 ---
 
+<img src="/images/husbanken-logo-hoved.svg" alt="Husbanken" class="absolute bottom-4 left-4 h-6" />
+
 # Navigation
 
 Hover on the bottom-left corner to see the navigation's controls panel
@@ -60,11 +63,15 @@ image: https://cover.sli.dev
 class: no-bg
 ---
 
+<img src="/images/husbanken-logo-hoved.svg" alt="Husbanken" class="absolute bottom-4 left-4 h-6" />
+
 Foobar 
 
 ---
 class: no-bg
 ---
+
+<img src="/images/husbanken-logo-hoved.svg" alt="Husbanken" class="absolute bottom-4 left-4 h-6" />
 
 # Code
 
@@ -90,6 +97,8 @@ layout: center
 class: "text-center"
 class: no-bg
 ---
+
+<img src="/images/husbanken-logo-hoved.svg" alt="Husbanken" class="absolute bottom-4 left-4 h-6" />
 
 # Learn More
 
