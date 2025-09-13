@@ -1,5 +1,7 @@
 ---
 theme: ./
+author: "Kjetil Mehl"
+date: "15-09-25"
 ---
 
 # Husbanken slidev starter
@@ -40,11 +42,13 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd>                                      | next slide                  |
 
 ---
-layout: image-right
-image: <https://cover.sli.dev>
+layout: image-left
+image: https://cover.sli.dev
 ---
 
-Foobar
+# Test
+
+* Image displayed to the left
 
 ---
 

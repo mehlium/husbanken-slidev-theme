@@ -1,13 +1,13 @@
 <template>
-  <div class="slidev-layout cover">
+  <div class="slidev-layout cover relative h-full">
     <div class="my-auto w-full">
       <slot />
-      <div class="flex justify-start items-center gap-8 pt-8">
+      <div class="-ml-0.75rem flex justify-start items-center gap-8 mt-16">
         <div class="text-center">
-          <div>15-09-25</div>
+          <div>{{ $slidev.configs.date }}</div>
         </div>
         <div class="text-center">
-          <div>Kjetil Mehl</div>
+          <div>{{ $slidev.configs.author }}</div>
         </div>
       </div>
     </div>

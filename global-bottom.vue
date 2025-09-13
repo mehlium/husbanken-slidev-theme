@@ -17,14 +17,9 @@ const { $slidev } = useSlideContext();
 
 // Check if current slide is intro or cover layout
 const isIntroOrCover = computed(() => {
-  console.log(currentPage.value);
-  console.log(currentLayout);
   const currentNo = $slidev.nav.currentNo;
   const slide = $slidev.nav.currentSlide?.value;
   const layout = slide?.frontmatter?.layout || slide?.meta?.layout;
-
-  console.log(currentNo);
-
   return currentPage.value === 1 || layout === "intro" || layout === "cover";
 });
 </script>
