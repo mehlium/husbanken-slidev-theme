@@ -2,14 +2,9 @@
   /* default theme color */
   /* can be overrided by uses `themeConfig` option */
   --slidev-theme-primary: #2c4656;
-}
-
-* {
   color: #2c4656;
   font-family: inter;
 }
-
-/* Apply to all slides */
 
 .slidev-layout.cover,
 .slidev-layout.intro {

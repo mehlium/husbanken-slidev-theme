@@ -4,14 +4,6 @@ theme: ./
 
 # Husbanken slidev starter
 
-<div class="flex justify-start items-center gap-8 pt-8">
-  <div class="text-center">
-    <div>15-09-25</div>
-  </div>
-  <div class="text-center">
-    <div>Kjetil Mehl</div>
-  </div>
-</div>
 
 ---
 
@@ -76,10 +68,8 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-
 layout: center
 class: "text-center"
-
 ---
 
 # Learn More
