@@ -10,9 +10,6 @@
 }
 
 /* Apply to all slides */
-.slidev-layout {
-  background: url("/images/bg-2.png") center center / cover no-repeat !important;
-}
 
 .slidev-layout.cover,
 .slidev-layout.intro {
@@ -31,18 +28,4 @@
   table + h2 {
     @apply mt-10;
   }
-}
-
-/* Remove any image/color set by the theme on this slide */
-.slidev-page .slidev-layout.no-bg,
-.slidev-page .slidev-layout.no-bg::before,
-.slidev-page .slidev-layout.no-bg::after {
-  background: none !important;
-  background-image: none !important;
-}
-
-/* Some themes render a separate overlay element */
-.slidev-page .slidev-layout.no-bg .bg,
-.slidev-page .slidev-layout.no-bg .overlay {
-  display: none !important;
 }
