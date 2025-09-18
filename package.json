@@ -1,5 +1,5 @@
 {
-  "name": "slidev-theme-husbanken-slidev",
+  "name": "@mehlium/husbanken-slidev-theme",
   "version": "0.0.0",
   "type": "module",
   "keywords": [
@@ -32,3 +32,4 @@
     }
   }
 }
+
