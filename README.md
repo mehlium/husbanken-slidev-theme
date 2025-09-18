@@ -21,6 +21,7 @@ A Husbanken theme for [Slidev](https://github.com/slidevjs/slidev).
 
 ## One-liner to get started (requires npm)
 
+    ```bash
     cat > slides.md << 'EOF'
     ---
     theme: "@mehlium/husbanken-slidev-theme"
@@ -32,6 +33,7 @@ A Husbanken theme for [Slidev](https://github.com/slidevjs/slidev).
 
     EOF
     npm install @slidev/theme-default @mehlium/husbanken-slidev-theme && npx slidev
+    ```
 
 ## Install
 
