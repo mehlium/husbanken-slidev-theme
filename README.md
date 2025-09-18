@@ -19,21 +19,19 @@ A Husbanken theme for [Slidev](https://github.com/slidevjs/slidev).
   Live demo: [...]
 -->
 
-## One-liner to get started (requires npm)
+## One-liner to get started on linux with npm installed
 
-    ```bash
     cat > slides.md << 'EOF'
     ---
     theme: "@mehlium/husbanken-slidev-theme"
-    author: "Foo Bar"
-    date: "15-09-25"
+    author: "Fornavn Etternavn"
+    date: "DD-MM-YY"
     ---
 
     # Test Test
 
     EOF
     npm install @slidev/theme-default @mehlium/husbanken-slidev-theme && npx slidev
-    ```
 
 ## Install
 
