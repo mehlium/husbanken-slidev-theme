@@ -31,7 +31,7 @@ A Husbanken theme for [Slidev](https://github.com/slidevjs/slidev).
     # Test Test
 
     EOF
-    npm install @slidev/theme-default @mehlium/husbanken-slidev-theme && npx slidev
+    npm install @mehlium/husbanken-slidev-theme && npx @slidev/cli
 
 ## Install
 
