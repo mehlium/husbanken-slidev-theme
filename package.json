@@ -48,5 +48,17 @@
         "mono": "Fira Code"
       }
     }
-  }
+  },
+  "description": "[![NPM version](https://img.shields.io/npm/v/slidev-theme-husbanken-slidev?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-husbanken-slidev)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehlium/husbanken-slidev-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehlium/husbanken-slidev-theme/issues"
+  },
+  "homepage": "https://github.com/mehlium/husbanken-slidev-theme#readme"
 }
