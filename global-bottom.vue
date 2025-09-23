@@ -1,6 +1,7 @@
 <script setup>
 import logoUrl from "./images/husbanken-logo-hoved.svg";
 import bgImage from "./images/bg-2.png";
+import bgImagePixelated from "./images/bg-pixelated.png";
 import { computed } from "vue";
 import {
   onSlideEnter,
@@ -22,6 +23,10 @@ const isIntroOrCover = computed(() => {
   const layout = slide?.frontmatter?.layout || slide?.meta?.layout;
   return currentPage.value === 1 || layout === "intro" || layout === "cover";
 });
+
+const isPixelated = computed(() => {
+  return $slidev.configs.pixelated || false;
+});
 </script>
 
 <template>
@@ -29,9 +34,16 @@ const isIntroOrCover = computed(() => {
     v-if="isIntroOrCover"
     class="absolute inset-0 pointer-events-none"
     :style="{
-      background: `url('${bgImage}') center / cover no-repeat`,
+      background: `url('${isPixelated ? bgImagePixelated : bgImage}') center / cover no-repeat`,
     }"
+  >
+  <img
+    v-if="isPixelated"
+    :src="logoUrl"
+    alt="Husbanken"
+    class="absolute top-48 left-12 h-12"
   />
+  </div>
   <img
     v-if="!isIntroOrCover"
     :src="logoUrl"
