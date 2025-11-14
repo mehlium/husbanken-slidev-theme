@@ -1,6 +1,6 @@
 # Husbanken slidev theme
 
-[![NPM version](https://img.shields.io/npm/v/@mehlium/husbanken-slidev-theme?color=3AB9D4&label=)](https://www.npmjs.com/package/@mehlium/husbanken-slidev-theme)
+[![NPM version](https://img.shields.io/npm/v/@mehl/husbanken-slidev-theme?color=3AB9D4&label=)](https://www.npmjs.com/package/@mehlium/husbanken-slidev-theme)
 
 A Husbanken theme for [Slidev](https://github.com/slidevjs/slidev).
 
@@ -23,7 +23,7 @@ A Husbanken theme for [Slidev](https://github.com/slidevjs/slidev).
 
     cat > slides.md << 'EOF'
     ---
-    theme: "@mehlium/husbanken-slidev-theme"
+    theme: "@mehl/husbanken-slidev-theme"
     author: "Fornavn Etternavn"
     date: "DD-MM-YY"
     ---
@@ -31,14 +31,14 @@ A Husbanken theme for [Slidev](https://github.com/slidevjs/slidev).
     # Hei fra sli.dev
 
     EOF
-    npm install @mehlium/husbanken-slidev-theme && npx @slidev/cli
+    npm install @mehl/husbanken-slidev-theme && npx @slidev/cli
 
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
-theme: <b>"@mehlium/husbanken-slidev-theme"</b>
+theme: <b>"@mehl/husbanken-slidev-theme"</b>
 ---</code></pre>
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
