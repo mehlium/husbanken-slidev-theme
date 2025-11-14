@@ -9,6 +9,7 @@
 /* Global background color utilities */
 .slidev-layout {
   background-color: var(--slidev-theme-background);
+  font-size: 0.9rem;
 }
 
 /* Utility classes for Husbanken brand colors */
