@@ -65,3 +65,8 @@
     @apply mt-10;
   }
 }
+/** Make two-cols-header nicer */
+.two-cols-header {
+  column-gap: 20px; /* Adjust the gap size as needed */
+  grid-template-rows: auto 1fr;
+}
