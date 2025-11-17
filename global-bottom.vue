@@ -2,6 +2,7 @@
 import logoUrl from "./images/husbanken-logo-hoved.svg";
 import bgImage from "./images/bg-2.png";
 import bgImagePixelated from "./images/bg-pixelated.png";
+import bgCyber from "./images/bg-cyber-2.jpg";
 import { computed } from "vue";
 import {
   onSlideEnter,
@@ -34,7 +35,7 @@ const isPixelated = computed(() => {
     v-if="isIntroOrCover"
     class="absolute inset-0 pointer-events-none"
     :style="{
-      background: `url('${isPixelated ? bgImagePixelated : bgImage}') center / cover no-repeat`,
+      background: `url('${isPixelated ? bgCyber : bgImage}') center / cover no-repeat`,
     }"
   >
   <img

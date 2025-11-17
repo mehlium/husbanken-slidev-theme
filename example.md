@@ -2,6 +2,7 @@
 theme: ./
 author: "Kjetil Mehl"
 date: "15-09-25"
+pixelated: true
 ---
 
 # Husbanken slidev starter
