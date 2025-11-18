@@ -2,11 +2,31 @@
 theme: ./
 author: "Kjetil Mehl"
 date: "15-09-25"
-pixelated: true
+backgroundImage: "punk"
 ---
 
 # Husbanken slidev starter
 
+
+---
+
+# Background Image Options
+
+You can change the background image for cover and intro pages by setting the `backgroundImage` key in your frontmatter:
+
+```yaml
+---
+theme: @mehl/husbanken-slidev-theme
+backgroundImage: "punk"  # Options: 'default', 'pixelated', or 'punk'
+---
+```
+
+**Available options:**
+- `default` - Classic Husbanken background (bg-2.png)
+- `pixelated` - Pixelated design background (bg-pixelated.png)
+- `punk` - Cyberpunk style background (bg-cyber-2.jpg)
+
+If not specified, the theme will use the `default` background.
 
 ---
 

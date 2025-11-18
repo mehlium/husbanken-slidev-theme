@@ -25,8 +25,27 @@ const isIntroOrCover = computed(() => {
   return currentPage.value === 1 || layout === "intro" || layout === "cover";
 });
 
-const isPixelated = computed(() => {
-  return $slidev.configs.pixelated || false;
+// Get background image from config, default to 'default'
+const backgroundImage = computed(() => {
+  return $slidev.configs.backgroundImage || 'default';
+});
+
+// Compute which background image to use based on config
+const selectedBgImage = computed(() => {
+  switch (backgroundImage.value) {
+    case 'pixelated':
+      return bgImagePixelated;
+    case 'punk':
+      return bgCyber;
+    case 'default':
+    default:
+      return bgImage;
+  }
+});
+
+// Show logo on cover/intro only for pixelated and punk themes
+const showLogoOnCover = computed(() => {
+  return backgroundImage.value === 'pixelated' || backgroundImage.value === 'punk';
 });
 </script>
 
@@ -35,11 +54,11 @@ const isPixelated = computed(() => {
     v-if="isIntroOrCover"
     class="absolute inset-0 pointer-events-none"
     :style="{
-      background: `url('${isPixelated ? bgCyber : bgImage}') center / cover no-repeat`,
+      background: `url('${selectedBgImage}') center / cover no-repeat`,
     }"
   >
   <img
-    v-if="isPixelated"
+    v-if="showLogoOnCover"
     :src="logoUrl"
     alt="Husbanken"
     class="absolute top-48 left-12 h-12"
