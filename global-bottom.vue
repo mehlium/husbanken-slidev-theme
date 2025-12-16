@@ -1,6 +1,6 @@
 <script setup>
 import logoUrl from "./images/husbanken-logo-hoved.svg";
-import bgImage from "./images/bg-2.png";
+import bgImage from "./images/bg-3.png";
 import bgImagePixelated from "./images/bg-pixelated.png";
 import bgCyber from "./images/bg-cyber-2.jpg";
 import paginationLogo from "./images/paginerings-logo.svg"
@@ -45,9 +45,6 @@ const selectedBgImage = computed(() => {
 });
 
 // Show logo on cover/intro only for pixelated and punk themes
-const showLogoOnCover = computed(() => {
-  return backgroundImage.value === 'pixelated' || backgroundImage.value === 'punk';
-});
 </script>
 
 <template>
@@ -59,10 +56,9 @@ const showLogoOnCover = computed(() => {
     }"
   >
   <img
-    v-if="showLogoOnCover"
     :src="logoUrl"
     alt="Husbanken"
-    class="absolute top-48 left-20 h-16"
+    class="absolute top-46 left-19 h-16"
   />
   </div>
   <img

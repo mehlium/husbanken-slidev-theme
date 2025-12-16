@@ -2,7 +2,7 @@
   <div class="slidev-layout cover relative h-full">
     <div class="my-auto w-full">
       <slot />
-      <div class="ml-10 flex justify-start items-center gap-2">
+      <div class="ml-9 flex justify-start items-center gap-2">
         <div class="text-center">
           <div>{{ $slidev.configs.date }}</div>
         </div>
