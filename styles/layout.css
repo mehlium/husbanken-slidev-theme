@@ -1,14 +1,12 @@
 :root {
   /* default theme color */
   /* can be overrided by uses `themeConfig` option */
-  --slidev-theme-primary: #2c4656;
-  color: #2c4656;
-  font-family: inter;
 }
 
 /* Global background color utilities */
 .slidev-layout {
   background-color: var(--slidev-theme-background);
+  color: var(--slidev-theme-primary);
   font-size: 0.9rem;
 }
 

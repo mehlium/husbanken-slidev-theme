@@ -43,9 +43,13 @@
   "slidev": {
     "colorSchema": "both",
     "defaults": {
+      "themeConfig": {
+        "primary": "#10190A"
+      },
       "fonts": {
-        "sans": "Nunito Sans",
-        "mono": "Fira Code"
+        "sans": "Inter",
+        "serif": "Inter",
+        "mono": "Inter"
       }
     }
   },
