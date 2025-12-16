@@ -1,8 +1,8 @@
 ---
 theme: ./
 author: "Kjetil Mehl"
-date: "15-09-25"
-backgroundImage: "punk"
+date: "17.12.2025"
+backgroundImage: "default"
 ---
 
 # Husbanken slidev starter

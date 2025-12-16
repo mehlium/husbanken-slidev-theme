@@ -1,15 +1,13 @@
 :root {
   /* default theme color */
   /* can be overrided by uses `themeConfig` option */
-  --slidev-theme-primary: #2c4656;
-  color: #2c4656;
-  font-family: inter;
 }
 
 /* Global background color utilities */
 .slidev-layout {
   background-color: var(--slidev-theme-background);
-  font-size: 0.9rem;
+  color: var(--slidev-theme-primary);
+  font-size: 18px;
 }
 
 /* Utility classes for Husbanken brand colors */
@@ -53,7 +51,7 @@
   @apply h-full grid;
 
   h1 {
-    @apply mt-19 -ml-3 text-6xl leading-20;
+    @apply mt-19 ml-8 text-6xl leading-20 mb-0;
   }
 
   h1 + p {
