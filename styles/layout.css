@@ -7,7 +7,7 @@
 .slidev-layout {
   background-color: var(--slidev-theme-background);
   color: var(--slidev-theme-primary);
-  font-size: 0.9rem;
+  font-size: 18px;
 }
 
 /* Utility classes for Husbanken brand colors */
@@ -51,7 +51,7 @@
   @apply h-full grid;
 
   h1 {
-    @apply mt-19 -ml-3 text-6xl leading-20;
+    @apply mt-19 ml-8 text-6xl leading-20 mb-0;
   }
 
   h1 + p {

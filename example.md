@@ -1,7 +1,7 @@
 ---
 theme: ./
 author: "Kjetil Mehl"
-date: "15-09-25"
+date: "16.12.2025"
 backgroundImage: "punk"
 ---
 
