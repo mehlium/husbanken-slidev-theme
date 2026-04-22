@@ -1,5 +1,5 @@
-<script setup>
-import logoUrl from "./images/husbanken-logo-hoved.svg";
+<script setup lang="ts">
+import logoUrl from "./images/hb-logo.png";
 import bgImage from "./images/bg-3.png";
 import bgImagePixelated from "./images/bg-pixelated.png";
 import bgCyber from "./images/bg-cyber-2.jpg";
